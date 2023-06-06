@@ -8,6 +8,7 @@ const CalculatorWrapper = styled.div`
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
 
   h2 {
     margin-top: 0;
@@ -17,6 +18,7 @@ const CalculatorWrapper = styled.div`
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
   }
 
   input {
@@ -26,6 +28,7 @@ const CalculatorWrapper = styled.div`
     border-radius: 3px;
     margin-bottom: 10px;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
   }
 
   button {
@@ -38,6 +41,7 @@ const CalculatorWrapper = styled.div`
     border-radius: 3px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-family: 'Roboto', sans-serif;
 
     &:hover {
       background-color: #45a049;

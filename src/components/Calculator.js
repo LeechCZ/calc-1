@@ -8,6 +8,7 @@ const CalculatorWrapper = styled.div`
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
 
   h2 {
     margin-top: 0;
@@ -29,6 +30,7 @@ const CalculatorWrapper = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
+
   }
 
   .number-pad button {
@@ -40,6 +42,7 @@ const CalculatorWrapper = styled.div`
     cursor: pointer;
     font-size: 18px;
     transition: background-color 0.3s ease;
+    font-family: 'Roboto', sans-serif;
 
     &:hover {
       background-color: #f5f5f5;
@@ -51,6 +54,7 @@ const CalculatorWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    font-family: 'Roboto', sans-serif;
   }
 
   .operations button {
@@ -62,6 +66,7 @@ const CalculatorWrapper = styled.div`
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease;
+    font-family: 'Roboto', sans-serif;
 
     &:hover {
       background-color: #f5f5f5;
@@ -80,6 +85,7 @@ const CalculatorWrapper = styled.div`
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease;
+    font-family: 'Roboto', sans-serif;
 
 
     &:hover {
@@ -101,6 +107,7 @@ const CalculatorWrapper = styled.div`
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease;
+    font-family: 'Roboto', sans-serif;
 
 
     &:hover {
@@ -128,6 +135,7 @@ const CalculatorWrapper = styled.div`
         cursor: pointer;
         font-size: 16px;
         transition: background-color 0.3s ease;
+        font-family: 'Roboto', sans-serif;
 
       &:hover {
         background-color: #f5f5f5;

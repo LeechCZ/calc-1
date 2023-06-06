@@ -8,6 +8,7 @@ width: 300px;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
 
   h2 {
     margin-top: 0;
@@ -17,6 +18,7 @@ width: 300px;
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
   }
 
   input {
@@ -37,6 +39,7 @@ width: 300px;
     border-radius: 3px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-family: 'Roboto', sans-serif;
 
     &:hover {
       background-color: #45a049;

@@ -12,6 +12,7 @@ const AppWrapper = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  font-family: 'Roboto', sans-serif;
 
   @media (max-width: 768px) {
     flex-direction: column;

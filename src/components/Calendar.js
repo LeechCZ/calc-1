@@ -10,6 +10,7 @@ const CurrentTimeWrapper = styled.div`
   border: none;
   border-radius: 3px;
   font-size: 16px;
+  font-family: 'Roboto', sans-serif;
 `;
 
 

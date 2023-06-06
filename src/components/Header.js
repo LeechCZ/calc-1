@@ -7,12 +7,23 @@ const HeaderWrapper = styled.header`
   color: #fff;
   padding: 20px;
   margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  align-items: center;
 
   .logo {
     font-size: 24px;
     font-weight: bold;
     cursor: pointer;
     margin-bottom: 10px;
+    
+  }
+
+  .link {
+    color: #FFF;
+    text-decoration: none;
+  }
+  .link:hover {
+    font-size: 105%;
   }
 
   .menu-icon {
@@ -62,13 +73,13 @@ const Header = () => {
       {isOpen && (
         <div className="menu">
           <div className="menu-item" onClick={handleMenuItemClick}>
-          <Link to="/">Domů</Link>
+          <Link className='link' to="/">Domů</Link>
           </div>
           <div className="menu-item" onClick={handleMenuItemClick}>
-          <Link to="/calculators">Kalkulačky</Link>
+          <Link className='link' to="/calculators">Kalkulačky</Link>
           </div>
           <div className="menu-item" onClick={handleMenuItemClick}>
-          <Link to="/daysAndWeeks">Dny a Týdny</Link>
+          <Link className='link' to="/daysAndWeeks">Dny a Týdny</Link>
           </div>
         </div>
       )}
