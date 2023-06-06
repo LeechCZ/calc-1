@@ -68,10 +68,7 @@ const Header = () => {
           <Link to="/calculators">Kalkulačky</Link>
           </div>
           <div className="menu-item" onClick={handleMenuItemClick}>
-            Dny a Týdny
-          </div>
-          <div className="menu-item" onClick={handleMenuItemClick}>
-            Něco
+          <Link to="/daysAndWeeks">Dny a Týdny</Link>
           </div>
         </div>
       )}

@@ -1,0 +1,2 @@
+/*Tady bych si představoval něco jako jestli je lichý nebo sudý týden, co je dnes za den.
+Možná kdo má svátek, eventualně státní svátky a prázdniny. Zkuste něco vymyslet já už nemůžu je mi fakt na nic.*/

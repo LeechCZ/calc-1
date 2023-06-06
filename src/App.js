@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Calculators from './components/Calculators';
 import Calendar from './components/Calendar';
+import DaysAndWeeks from './components/DaysAndWeeks';
 
 const AppWrapper = styled.div`
   display: flex;
@@ -31,6 +32,7 @@ const App = () => {
         <Header />
         <Routes>
           <Route path="/calculators" element={<Calculators />} />
+          <Route path="/daysAndWeeks" element={<DaysAndWeeks />} />
         </Routes>
         <AppWrapper>
           <Calendar />
