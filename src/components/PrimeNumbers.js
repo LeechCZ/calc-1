@@ -85,7 +85,7 @@ const PrimeNumberCalculator = () => {
 
   return (
     <PrimeNumberWrapper>
-      <h2>Ověřovat Prvočísel</h2>
+      <h2>Ověřovač Prvočísel</h2>
       <div className="input-container">
         <input
           type="number"

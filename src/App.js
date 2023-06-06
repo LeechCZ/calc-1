@@ -1,11 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import BMICalculator from './BMICalculator';
-import AverageValueCalculator from './AverageValueCalculator';
-import PercentageCalculator from './PercentageCalculator';
-import Percentage from './Percentage';
-import Calculator from './Calculator';
-import PrimeNumbers from './PrimeNumbers';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+import Header from './components/Header';
+import Calculators from './components/Calculators';
+import Calendar from './components/Calendar';
 
 const AppWrapper = styled.div`
   display: flex;
@@ -27,14 +26,17 @@ const AppWrapper = styled.div`
 
 const App = () => {
   return (
-    <AppWrapper>
-      <BMICalculator />
-      <AverageValueCalculator />
-      <PercentageCalculator />
-      <Percentage />
-      <Calculator />
-      <PrimeNumbers />
-    </AppWrapper>
+    <>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/calculators" element={<Calculators />} />
+        </Routes>
+        <AppWrapper>
+          <Calendar />
+        </AppWrapper>
+      </Router>
+    </>
   );
 };
 
